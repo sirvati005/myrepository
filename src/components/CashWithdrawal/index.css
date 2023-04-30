@@ -1,0 +1,74 @@
+/* Write your CSS here */
+.app-background {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.person-acc-background {
+  padding: 15px;
+  background-color: #150b3e;
+  width: 35%;
+  border-radius: 10px;
+}
+
+.person-name-container {
+  display: flex;
+  padding: 10px;
+}
+
+.profile-pic {
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  height: 70px;
+  width: 70px;
+  text-align: center;
+  border-radius: 35px;
+}
+
+.name {
+  color: #d4d2db;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.balance-information-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.your-balance-text {
+  color: #585076;
+  font-size: 28px;
+}
+.amount {
+  color: #c7d2fe;
+}
+.description {
+  color: #585076;
+}
+.withdraw-text {
+  color: #c7d2fe;
+  padding-left: 15px;
+}
+.rupees-text {
+  color: #585076;
+  padding-left: 15px;
+}
+.buttons-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+  justify-content: center;
+  list-style-type: none;
+}
